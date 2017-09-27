@@ -29,7 +29,7 @@ document.querySelector(".btn-roll").addEventListener("click", function(){
         //Display results
         var diceDOM = document.querySelector(".dice");
         diceDOM.style.display = "block";
-        diceDOM.src = "imgs/dice-" + dice + ".png";
+        diceDOM.src = "dice-" + dice + ".png";
         //Update the round score if # is not 1
         if(dice !== 1){
             //Add score
